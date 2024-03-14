@@ -1,6 +1,5 @@
 #Moin Boilerplate Mvc With Springboot 3.2.x Java 17
 
-
 ---
 ## 개발 진행시 이슈사항
 ```text
