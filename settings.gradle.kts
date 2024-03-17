@@ -4,7 +4,7 @@ pluginManagement {
     }
 }
 
-rootProject.name = "boilerplate-mvc"
+rootProject.name = "boilerplate"
 
 gradle.extra["IS_CI"] = !System.getenv("CI").isNullOrEmpty()
 includeBuild("gradle/convention")
@@ -21,3 +21,4 @@ if (gradle.extra["IS_CI"] == false) {
 include("gradle")
 include("gradle:convention")
 findProject(":gradle:convention")?.name = "convention"
+include("api")
