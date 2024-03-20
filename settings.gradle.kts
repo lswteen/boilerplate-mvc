@@ -22,3 +22,5 @@ include("gradle")
 include("gradle:convention")
 findProject(":gradle:convention")?.name = "convention"
 include("api")
+include("user")
+include("common")
