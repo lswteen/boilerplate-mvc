@@ -34,7 +34,6 @@ Entity : postfix Entity 사용하며 되도록 주석 필수
 
 ### API 모듈  
 ```text
-user(회원), transfer(송금,견적서), common(에러처리) 및 에러핸들링처리, security 
-API 모듈 각 도메인 모듈에 대한 바운디드 컨텍스트를 에그리커트(Aggregate) 한 Service 로 처리 하며 
-postfix "AppService" 네이밍 규칙 사용 
+user(회원),  common(에러처리) 및 에러핸들링처리, security 
+
 ```
